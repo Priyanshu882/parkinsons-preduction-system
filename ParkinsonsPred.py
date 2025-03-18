@@ -54,10 +54,10 @@ def set_background(image_path):
     st.markdown(bg_image, unsafe_allow_html=True)
 
 # Call the function with your image path
-set_background("C:/Users/priya/OneDrive/Desktop/FinalProject/background.png")
+set_background("background.png")
 
 # Load Parkinson's Model
-parkinsons_model = pickle.load(open("C:/Users/priya/OneDrive/Desktop/FinalProject/parkinsons_model.sav", 'rb'))
+parkinsons_model = pickle.load(open("parkinsons_model.sav", 'rb'))
 
 # Sidebar for navigation
 with st.sidebar:
